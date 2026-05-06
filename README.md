@@ -15,7 +15,7 @@ Works on Linux and Mac. Context window set to 200k on purpose as LLMs get dumber
 
 2. Place the script:
    ```bash
-   curl -o ~/.claude/statusline.sh https://raw.githubusercontent.com/Rffrench/claude-status/main/statusline.sh
+   curl -o ~/.claude/statusline.sh https://raw.githubusercontent.com/Rffrench/claude-status/refs/heads/master/statusline.sh
    chmod +x ~/.claude/statusline.sh
    ```
 
