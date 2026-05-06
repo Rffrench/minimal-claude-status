@@ -43,7 +43,7 @@ Just send the first message in your session and fields will get populated.
 
 Bars turn red at ≥85%.
 
-## Configuration
+## (Optional) Configuration
 
 Edit constants near the top of `statusline.sh`:
 
