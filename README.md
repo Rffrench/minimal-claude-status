@@ -1,4 +1,4 @@
-# claude-status
+# Minimal Claude Code statusline.sh
 
 Minimal status line for [Claude Code](https://docs.claude.com/en/docs/claude-code) showing folder, 5-hour usage, weekly usage, and context window consumption with colored progress bars.
 
@@ -15,7 +15,7 @@ Works on Linux and Mac. Context window set to 200k on purpose as LLMs get dumber
 
 2. Place the script:
    ```bash
-   curl -o ~/.claude/statusline.sh https://raw.githubusercontent.com/Rffrench/claude-status/refs/heads/master/statusline.sh
+   curl -o ~/.claude/statusline.sh https://raw.githubusercontent.com/Rffrench/minimal-claude-status/refs/heads/master/statusline.sh
    chmod +x ~/.claude/statusline.sh
    ```
 
