@@ -4,7 +4,7 @@ Minimal status line for [Claude Code](https://docs.claude.com/en/docs/claude-cod
 
 Works on Linux and Mac. Context window set to 200k on purpose as LLMs get dumber with too many tokens.
 
-![preview](preview.png)
+![preview](claude-status.png)
 
 ## Install
 
