@@ -37,7 +37,7 @@ Works on Linux and Mac. Context window set to 200k on purpose as LLMs get dumber
 
 - **session** - 5-hour rate limit usage
 - **week** - 7-day rate limit usage
-- **🧠** - current context window usage (assumes 200k window)
+- **🧠** - current context window usage (assumes 200k window. This is ON PURPOSE. LLMs tend to get dumber after around 100-150k tokens from my experience)
 
 Bars turn red at ≥85%.
 
