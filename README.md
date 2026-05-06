@@ -4,6 +4,8 @@ Minimal status line for [Claude Code](https://docs.claude.com/en/docs/claude-cod
 
 Works on Linux and Mac. Context window set to 200k on purpose as LLMs get dumber with too many tokens.
 
+Just send the first message in your session and fields will get populated.
+
 ![preview](claude-status.png)
 
 ## Install
@@ -50,16 +52,8 @@ Edit constants near the top of `statusline.sh`:
 | `CTX_WINDOW` | `200000` | Context window size in tokens |
 | `BAR_WIDTH` | `6` | Bar width in characters |
 
-Colors use 256-color ANSI codes — adjust `GREEN`, `RED`, `TRACK`, `DIM` to taste.
+Colors use 256-color ANSI codes - adjust `GREEN`, `RED`, `TRACK`, `DIM` to taste.
 
-## Limitations
-
-- **No native Windows support.** Requires WSL, Git Bash, or Cygwin (uses `#!/bin/bash`).
-- **Requires `jq`.** Not preinstalled on macOS or most Linux distros.
-- **Terminal must support 256-color ANSI** and render Unicode block characters (`█ ▌ ░`) plus emoji.
-- **Context window is hardcoded to 200k.** Change `CTX_WINDOW` if your model differs.
-- **Context value reflects the last assistant turn only**, not a running max - drops after compaction.
-- **Rate limit fields may be empty** on plans without 5h/weekly limits; bars render as `—`.
 
 ## License
 
